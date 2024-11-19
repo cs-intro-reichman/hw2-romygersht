@@ -11,9 +11,13 @@ public class Cheers {
 
            for (int l = 0; l<str1.length(); l++) {
                 char ch = str1.charAt(l); //creating a char for the letter
-                int i = 0; 
+
+                if (capital.indexOf(ch) == -1) { //if the letter is not capital, change it
+                int i = 0;
                 i = notCapital.indexOf(ch);
                 ch = capital.charAt(i);
+                }
+                
                 str3 = str3 +ch;
 
                 if (str2.indexOf(ch)== -1) // if the letters in the str2 does not appear
