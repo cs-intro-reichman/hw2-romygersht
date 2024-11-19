@@ -5,8 +5,8 @@ public class Cheers {
         String str1 = "" +(args[0]); //the string input
         int num1 = Integer.parseInt(args[1]); //numer input
         String str2 = "AEFHILMNORSX";
-        String capital = "ABCDEFGHIJKLMNOPQRSTUVWSYZ";//creating a string including all the letters from the ABC
-        String notCapital = "abcdefghijklmnopqrstuvwsyz";
+        String capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";//creating a string including all the letters from the ABC
+        String notCapital = "abcdefghijklmnopqrstuvwxyz";
         String str3 = "";
 
            for (int l = 0; l<str1.length(); l++) {
