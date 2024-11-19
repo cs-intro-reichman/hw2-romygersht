@@ -10,13 +10,18 @@ public class Collatz {
 
 		String v = "v";
 
-		if (mode.equals(v)) {
+		if (mode.equals(v)) { 
+
+			if (j == 1){
+				System.out.print("1 4 2 1 (4)");
+			}
 
            for (int j=1; j <=seed; j++) {
 			int counter = 0;
-		     while (cNumber!=1) {
 
-		    if (j%2 == 0){	
+		     while (j!=1) {
+
+		    if (cNumber%2 == 0){	
 			cNumber = j/2;
 			System.out.print(+cNumber+" ");
 			counter ++;
