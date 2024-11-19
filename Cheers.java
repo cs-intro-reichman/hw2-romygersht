@@ -23,16 +23,17 @@ public class Cheers {
                 if (str2.indexOf(ch)== -1) // if the letters in the str2 does not appear
         {      
                 System.out.println("Give me a: "+ch+"!");
-                System.out.println("what does that spell?");
                 
         }
                 else // if they do apear
         {
                 System.out.println("Give me an: "+ch+"!"); 
-                System.out.println("what does that spell?");
         }
                 ch = str1.charAt(l); //+1 at the string
            }
+           
+           System.out.println("what does that spell?");
+           
            while (num1 >0) { //printing the word as many times as the num // להפוך לאותיות גדולות
                 System.out.println(str3+ "!!!");
                 num1 --;
