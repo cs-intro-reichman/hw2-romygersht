@@ -7,7 +7,7 @@ public class Cheers {
         String str2 = "AEFHILMNORSX";
         String capital = "ABCDEFGHIJKLMNOPQRSTUVWSYZ";//creating a string including all the letters from the ABC
         String notCapital = "abcdefghijklmnopqrstuvwsyz";
-        String str3 = " ";
+        String str3 = "";
 
            for (int l = 0; l<str1.length(); l++) {
                 char ch = str1.charAt(l); //creating a char for the letter
@@ -35,7 +35,7 @@ public class Cheers {
            System.out.println("What does that spell?");
            
            while (num1 >0) { //printing the word as many times as the num // להפוך לאותיות גדולות
-                System.out.println(str3+ "!!!");
+                System.out.println(str3+ " !!!");
                 num1 --;
                 }
         }
