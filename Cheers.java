@@ -32,7 +32,7 @@ public class Cheers {
                 ch = str1.charAt(l); //+1 at the string
            }
            
-           System.out.println("what does that spell?");
+           System.out.println("What does that spell?");
            
            while (num1 >0) { //printing the word as many times as the num // להפוך לאותיות גדולות
                 System.out.println(str3+ "!!!");
