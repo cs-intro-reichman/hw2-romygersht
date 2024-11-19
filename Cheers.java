@@ -35,7 +35,7 @@ public class Cheers {
            System.out.println("What does that spell?");
            
            while (num1 >0) { //printing the word as many times as the num // להפוך לאותיות גדולות
-                System.out.println(str3+ " !!!");
+                System.out.println(str3+ "!!!");
                 num1 --;
                 }
         }
