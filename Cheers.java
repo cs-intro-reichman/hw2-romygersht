@@ -22,7 +22,7 @@ public class Cheers {
 
                 if (str2.indexOf(ch)== -1) // if the letters in the str2 does not appear
         {      
-                System.out.println("Give me a "+ch+": "+ch+"!");
+                System.out.println("Give me a  "+ch+": "+ch+"!");
                 
         }
                 else // if they do apear
