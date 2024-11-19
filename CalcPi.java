@@ -13,7 +13,7 @@ public class CalcPi {
 		one *= -1;
 	}
 
-	System.out.println("pi according to java: " + Math.PI); //the answer*4 because it returns pai/4
+	System.out.println("pi according to Java: " + Math.PI); //the answer*4 because it returns pai/4
 	System.out.println("pi, approximated:     " + sum*4);
 	}
 }
